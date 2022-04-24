@@ -68,9 +68,11 @@ ORDER BY emp_no;
 
 
 Summary: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
-How many roles will need to be filled as the "silver tsunami" begins to make an impact?
+1. How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 A new query to include the various departments for the distinct employees whose roles will need to be filled during the "silver tsunami. There are over 90,000 roles to be filled across board.
 
-Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+![](Resources/Retiring_roles_departments.png)
+
+2. Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 Unfortunately, there are only 1549 qualified mentees in the departments for the next generation which would not be adequate.
 SQL query used: SELECT COUNT (emp_no) AS count  from  mentorship_eligibility;
